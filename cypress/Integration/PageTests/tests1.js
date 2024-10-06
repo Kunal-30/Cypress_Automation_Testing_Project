@@ -282,6 +282,253 @@ describe('Tutorials Ninja', () => {
         login_obj.NT_Login_Credentials5();
     });
     
+    // Register Test Cases
+
+    // Entering symbols in place of characters in First Name
+    it('RegisterPage - Negative test case by entering symbols in First Name', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage11();
+        
+    });
+    
+    // Entering numbers in place of characters in First Name
+    it('RegisterPage - Negative Test case by entering numbers in First Name', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage12();
+
+        
+    });
+    
+    // Entering symbols in place of characters in Last Name
+    it('RegisterPage - Negative Test Case by entering symbols in Last Name', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage13();
+
+        // Calling the function Clicking on Continue from Register Page
+        register_obj.Clicking_on_Continue();
+        
+    });
+    
+    // Entering numbers in place of characters in Last Name
+    it('RegisterPage - Negative Test Case by entering numbers in Last Name', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage14();
+        
+    });
+    
+    // Entering symbols in place of characters in Email
+    it('RegisterPage - Negative Test Case by entering symbols in Email', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage15();
+        
+    });
+
+    // Entering numbers in place of characters in Email
+    it('RegisterPage - Negative test case by entering numbers in Email', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage16();
+        
+    });
+    
+    // Entering symbols and numbers in place of characters in Email
+    it('RegisterPage - Negative test case by entering numbers and characters in Email', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage17();
+        
+    });
+    
+    // it('RegisterPage - Negative test case by leaving Checkbox unchecked', () => {
+        
+    //     // Calling the function EnterURL from Register Page
+    //     register_obj.EnterURL();
+
+    //     // Calling the function Register Link in my account from Register Page
+    //     register_obj.RegisterLink_in_my_account();
+
+    //     // Calling the function NT_RegisterPage10 from Register Page
+    //     register_obj.NT_RegisterPage18();
+
+    //     // Calling the function Clicking on Continue from Register Page
+    //     register_obj.Clicking_on_Continue();
+        
+    // });
+    
+    // Not Entering gmail. in EmailID
+    it('RegisterPage - Negative test case by not entering gmail. in EmailID', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage19();
+        
+    });
+    
+    // Not Entering .com in EmailID
+    it('RegisterPage - Negative test case by not entering .com in EmailID', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage20();
+        
+    });
+
+    // Entering symbols in place of characters in Phone Number
+    it('RegisterPage - Negative test case by entering symbols in Phone Number', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage21();
+        
+    });
+    
+    // Entering digits greater than 32 in Phone Number
+    it('RegisterPage - Negative test case by entering digits greater than 32', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage22();
+        
+    });
+    
+    // Entering the digits not greater than 3 in Phone Number
+    it('RegisterPage - Negative test case by entering digits not greater than 3', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage23();
+        
+    });
+    
+    // Entering the digits greater than 3 and not greater than 10 in Phone Number
+    it('RegisterPage - Negative test case by entering the digits greater than 3 and not greater than 10', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage24();
+        
+    });
+    
+    // Entering the digits not grater than 4 in Password and COnfirm Password
+    it('RegisterPage - Negative test case by entering the digits not grater than 4 in Password and COnfirm Password', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage25();
+        
+    });
+    
+    // Entering the digits exceeding 20 in Password and COnfirm Password
+    it('RegisterPage - Negative test case by entering the digits exceeding 20 in Password and COnfirm Password', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage26();
+        
+    });
+
+    // Enterinng for Password by using numbers not exceeding 4 digits and for Confirm Password by using numbers exceeding 20 digits 
+    it('RegisterPage - Negative test case by entering for Password by using numbers not exceeding 4 digits and for Confirm Password by using numbers exceeding 20 digits', () => {
+        
+        // Calling the function EnterURL from Register Page
+        register_obj.EnterURL();
+
+        // Calling the function Register Link in my account from Register Page
+        register_obj.RegisterLink_in_my_account();
+
+        // Calling the function NT_RegisterPage10 from Register Page
+        register_obj.NT_RegisterPage27();
+        
+    });
+    
+    
 });
 
 
