@@ -1,22 +1,22 @@
-Cypress Automation Project: 
-TutorialsNinja - Register, Login, Logout 
+#  **Cypress Automation Project: TutorialsNinja - Register, Login, Logout**
  
-Objective 
+*Objective* 
 This project automates the user flow for Register, Login, and Logout functionality on the TutorialsNinja website using Cypress. 
-Tools and Technologies Used 
- 
+
+*Tools and Technologies Used*  
 -	Programming Language: JavaScript 
 -	Automation Framework: Cypress 
 -	Browser: Chrome or Electron (Default Browser) 
 -	IDE/Text Editor: Visual Studio Code (VSCode) 
 -	Version Control: GitHub 
      
-Prerequisites 
+*Prerequisites* 
 To successfully run this project, ensure you have the following: 
 -	Basic knowledge of JavaScript. 
 -	Familiarity with Cypress and basic web elements such as id, class, and name. 
 -	Installed Node.js and Visual Studio Code. 
-Setup Instructions 
+
+*Setup Instructions* 
 Part 1: Environment Setup 
 1. Install VSCode: 
    - Download and install VSCode from its official website. 
@@ -70,19 +70,22 @@ Project Structure
 ├── cypress.json              # Cypress con iguration ile 
 ├── package.json              # Project dependencies 
 ``` 
-Test Data 
+*Test Data* 
 Use the following test data: 
 -	Email: tagdekunal2000@gmail.com 
 -	Password: Lazy123 
-Cypress Commands Used 
+
+*Cypress Commands Used* 
 -	cy.get(): To locate web elements. 
 -	cy.type(): To enter data into input fields. 
 -	cy.click(): To simulate button clicks. 
 -	cy.contains(): To locate text or buttons by their content. 
 -	cy.url(): To assert URL changes. 
-Key Features 
+
+*Key Features* 
 -	Page Object Model (POM): The project is structured using POM for maintainability. - Assertions: Use of Cypress assertions for validating success of registration, login, and logout actions. 
 -	Screenshots: Automatically take screenshots after each major action. 
+
 *How to Run the Tests* 
 1.	Clone the repository: bash    git clone <repository-url>    cd <project-folder> 
 2.	Install project dependencies: bash    npm install 
